@@ -1,0 +1,26 @@
+bandit5@bandit:~$ ls
+inhere
+bandit5@bandit:~$ cd inhere/
+bandit5@bandit:~/inhere$ ls
+maybehere00  maybehere04  maybehere08  maybehere12  maybehere16
+maybehere01  maybehere05  maybehere09  maybehere13  maybehere17
+maybehere02  maybehere06  maybehere10  maybehere14  maybehere18
+maybehere03  maybehere07  maybehere11  maybehere15  maybehere19
+bandit5@bandit:~/inhere$ maybehere00
+maybehere00: command not found
+bandit5@bandit:~/inhere$ cd maybehere00
+bandit5@bandit:~/inhere/maybehere00$ ls -l
+total 44
+-rwxr-x--- 1 root bandit5 1039 Jan 11 19:19 -file1
+-rw-r----- 1 root bandit5 9388 Jan 11 19:19 -file2
+-rwxr-x--- 1 root bandit5 7378 Jan 11 19:19 -file3
+-rwxr-x--- 1 root bandit5 6118 Jan 11 19:19 spaces file1
+-rw-r----- 1 root bandit5 6850 Jan 11 19:19 spaces file2
+-rwxr-x--- 1 root bandit5 1915 Jan 11 19:19 spaces file3
+bandit5@bandit:~/inhere/maybehere00$ cd ..
+bandit5@bandit:~/inhere$ find -type f -size 1033c ! -executable
+./maybehere07/.file2
+bandit5@bandit:~/inhere$ cat ./maybehere07/.file2
+P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+
+Pass: P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
