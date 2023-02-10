@@ -1,0 +1,194 @@
+Last login: Thu Feb  9 22:22:30 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Ms-MacBook-Pro:~ me$ ls -la
+total 944
+drwxr-xr-x+  85 me    staff    2720 Feb  9 22:29 .
+drwxr-xr-x    5 root  admin     160 Mar 26  2022 ..
+-r--------    1 me    staff       7 May 19  2021 .CFUserTextEncoding
+-rw-r--r--@   1 me    staff   16388 Feb  2 15:46 .DS_Store
+drwx------   68 me    staff    2176 Feb  7 07:07 .Trash
+drwxr-xr-x    3 me    staff      96 Sep 10 14:04 .anaconda
+drwxr-x---    5 me    staff     160 May 20  2021 .android
+drwxr-xr-x    3 me    staff      96 May 20  2021 .appinventor
+drwxr-xr-x   15 me    staff     480 Feb  1 01:18 .atom
+-rw-------    1 me    staff   12945 Feb  9 22:45 .bash_history
+-rw-r--r--@   1 me    staff     483 Sep 10 14:04 .bash_profile
+drwx------   28 me    staff     896 Feb  9 22:52 .bash_sessions
+-rw-r--r--    1 me    staff       0 Sep 20 13:41 .bashrc
+drwxr-xr-x    3 me    staff      96 Jan 25  2022 .cache
+drwxr-xr-x    2 me    staff      64 Sep 13 00:26 .conda
+-rw-r--r--    1 me    staff      23 Sep 10 14:05 .condarc
+drwx------    6 me    staff     192 Oct 16 15:10 .config
+drwxr-xr-x    3 me    staff      96 Sep 10 14:04 .continuum
+drwx------    3 me    staff      96 May 26  2021 .cups
+drwxr-xr-x    7 me    staff     224 Jan 25  2022 .eclipse
+drwxr-xr-x    4 me    staff     128 Jan 31 23:32 .ipynb_checkpoints
+drwxr-xr-x    3 me    staff      96 Sep 10 14:09 .ipython
+drwxr-xr-x    4 me    staff     128 Oct  4 02:59 .jupyter
+-rw-------    1 me    staff      20 Sep 16 08:27 .lesshst
+drwxr-xr-x    3 me    staff      96 Jan 19 17:44 .m2
+drwxr-xr-x    3 me    staff      96 Sep 10 14:11 .matplotlib
+drwxr-xr-x    8 me    staff     256 Oct 16 15:10 .npm
+drwxr-xr-x    3 me    staff      96 Jun 30  2021 .openjfx
+drwxr-xr-x    8 me    staff     256 Sep  7 14:13 .p2
+-rw-------    1 me    staff      22 Sep 11 18:57 .python_history
+drwxr-xr-x   16 me    staff     512 Sep 12 13:38 .spyder-py3
+drwx------    4 me    staff     128 Feb  3 03:57 .ssh
+-rw-r--r--    1 me    staff     308 Sep 10 14:04 .tcshrc
+drwxr-xr-x    4 me    staff     128 Dec  2 18:04 .thinkorswim
+-rw-------    1 me    staff    6934 Jan 18 23:45 .viminfo
+drwxr-xr-x    3 me    staff      96 Sep  9 11:07 .vmware
+drwxr-xr-x    4 me    staff     128 Jun  9  2022 .vscode
+drwxr-xr-x    3 me    staff      96 Jun  9  2022 .vscode-react-native
+-rw-r--r--    1 me    staff     591 Sep 10 14:04 .xonshrc
+drwxr-xr-x    3 me    staff      96 Oct 13 21:12 .yarn
+-rw-r--r--    1 me    staff     116 Nov 14 09:58 .yarnrc
+-rw-------    1 me    staff    2679 Oct 16 17:12 .zsh_history
+drwx------   67 me    staff    2144 Sep 20 00:11 .zsh_sessions
+-rw-r--r--    1 me    staff     482 Sep 10 14:04 .zshrc
+drwx------@   3 me    staff      96 Sep  9  2021 Applications
+drwx------@  31 me    staff     992 Feb  7 07:07 Desktop
+drwx------+   8 me    staff     256 Jan 29 19:28 Documents
+drwx------+ 597 me    staff   19104 Feb  7 07:07 Downloads
+-rw-r--r--    1 me    staff  283615 Feb  1 18:37 Hw02TypeChecks_2023_02_01_183701.jfr
+drwx------@  91 me    staff    2912 Dec 11 20:48 Library
+drwx------    7 me    staff     224 Dec  1  2021 Movies
+drwx------+   4 me    staff     128 Aug 24  2021 Music
+drwx------+   5 me    staff     160 Aug 15  2021 Pictures
+drwxr-xr-x+   4 me    staff     128 May 18  2021 Public
+drwxr-xr-x    3 me    staff      96 Dec 27 12:49 Qooly
+-rw-r--r--    1 me    staff    5636 Jan 25 00:02 Untitled.ipynb
+-rw-r--r--@   1 me    staff   14760 Feb  1 22:38 Untitled.txt
+-rw-r--r--    1 me    staff    1234 May  4  2022 Untitled1.8xp
+-rw-r--r--    1 me    staff    5581 Jan 31 23:34 Untitled1.ipynb
+-rw-r--r--    1 me    staff      85 May  3  2022 Untitled2.8xp
+-rw-r--r--    1 me    staff    1175 May  4  2022 Untitled29.8xp
+-rw-r--r--    1 me    staff    1561 May  3  2022 Untitled3.8xp
+-rw-r--r--    1 me    staff     745 May  4  2022 Untitled4.8xp
+-rw-r--r--    1 me    staff    3144 May  3  2022 Untitled5.8xp
+-rw-r--r--    1 me    staff     993 May  4  2022 Untitled57.8xp
+-rw-r--r--    1 me    staff     485 May  3  2022 Untitled6.8xp
+-rw-r--r--    1 me    staff    1582 May  4  2022 Untitled89.8xp
+-rw-r--r--    1 me    staff    1122 May  4  2022 Untitled9.8xp
+drwxr-xr-x    3 me    staff      96 Dec  2 19:12 VirtualBox VMs
+-rw-r--r--    1 me    staff     208 Sep 12 14:18 client.py
+drwxr-xr-x    4 me    staff     128 Jan 18 23:43 cy2550
+drwxr-xr-x   10 me    staff     320 Nov 14 09:58 docs
+drwxr-xr-x    3 me    staff      96 Jan 25  2022 eclipse
+drwxr-xr-x    4 me    staff     128 Jan 25  2022 eclipse-workspace
+drwxr-xr-x   13 me    staff     416 Oct 13 21:13 hello
+drwxr-xr-x   13 me    staff     416 Oct 15 14:28 me
+-rw-------    1 me    staff    2655 Dec  2 21:11 mert
+-rw-r--r--@   1 me    staff     577 Dec  2 21:11 mert.pub
+-rw-------    1 me    staff    2655 Dec  2 21:20 merterden
+-rw-r--r--@   1 me    staff     576 Dec  2 21:21 merterden.pub
+drwxr-xr-x    3 me    staff      96 Sep 10 14:01 opt
+-rw-r--r--    1 me    staff    1679 Feb  9 22:29 private.key
+-rw-r--r--    1 me    staff    1115 Sep 11 18:52 server.py
+-rw-------@   1 me    staff    2655 Dec  2 21:36 vmkey
+-rw-r--r--@   1 me    staff     577 Dec  2 21:36 vmkey.pub
+(base) Ms-MacBook-Pro:~ me$ chmod 700 private.key 
+(base) Ms-MacBook-Pro:~ me$ ssh bandit14@bandit.labs.overthewire.org -p 2220 -i private.key
+                         _                     _ _ _   
+                        | |__   __ _ _ __   __| (_) |_ 
+                        | '_ \ / _` | '_ \ / _` | | __|
+                        | |_) | (_| | | | | (_| | | |_ 
+                        |_.__/ \__,_|_| |_|\__,_|_|\__|
+                                                       
+
+                      This is an OverTheWire game server. 
+            More information on http://www.overthewire.org/wargames
+
+
+      ,----..            ,----,          .---.
+     /   /   \         ,/   .`|         /. ./|
+    /   .     :      ,`   .'  :     .--'.  ' ;
+   .   /   ;.  \   ;    ;     /    /__./ \ : |
+  .   ;   /  ` ; .'___,/    ,' .--'.  '   \' .
+  ;   |  ; \ ; | |    :     | /___/ \ |    ' '
+  |   :  | ; | ' ;    |.';  ; ;   \  \;      :
+  .   |  ' ' ' : `----'  |  |  \   ;  `      |
+  '   ;  \; /  |     '   :  ;   .   \    .\  ;
+   \   \  ',  /      |   |  '    \   \   ' \ |
+    ;   :    /       '   :  |     :   '  |--"
+     \   \ .'        ;   |.'       \   \ ;
+  www. `---` ver     '---' he       '---" ire.org
+
+
+Welcome to OverTheWire!
+
+If you find any problems, please report them to the #wargames channel on
+discord or IRC.
+
+--[ Playing the games ]--
+
+  This machine might hold several wargames.
+  If you are playing "somegame", then:
+
+    * USERNAMES are somegame0, somegame1, ...
+    * Most LEVELS are stored in /somegame/.
+    * PASSWORDS for each level are stored in /etc/somegame_pass/.
+
+  Write-access to homedirectories is disabled. It is advised to create a
+  working directory with a hard-to-guess name in /tmp/.  You can use the
+  command "mktemp -d" in order to generate a random and hard to guess
+  directory in /tmp/.  Read-access to both /tmp/ is disabled and to /proc
+  restricted so that users cannot snoop on eachother. Files and directories
+  with easily guessable or short names will be periodically deleted! The /tmp
+  directory is regularly wiped.
+  Please play nice:
+
+    * don't leave orphan processes running
+    * don't leave exploit-files laying around
+    * don't annoy other players
+    * don't post passwords or spoilers
+    * again, DONT POST SPOILERS!
+      This includes writeups of your solution on your blog or website!
+
+--[ Tips ]--
+
+  This machine has a 64bit processor and many security-features enabled
+  by default, although ASLR has been switched off.  The following
+  compiler flags might be interesting:
+
+    -m32                    compile for 32bit
+    -fno-stack-protector    disable ProPolice
+    -Wl,-z,norelro          disable relro
+
+  In addition, the execstack tool can be used to flag the stack as
+  executable on ELF binaries.
+
+  Finally, network-access is limited for most levels by a local
+  firewall.
+
+--[ Tools ]--
+
+ For your convenience we have installed a few useful tools which you can find
+ in the following locations:
+
+    * gef (https://github.com/hugsy/gef) in /opt/gef/
+    * pwndbg (https://github.com/pwndbg/pwndbg) in /opt/pwndbg/
+    * peda (https://github.com/longld/peda.git) in /opt/peda/
+    * gdbinit (https://github.com/gdbinit/Gdbinit) in /opt/gdbinit/
+    * pwntools (https://github.com/Gallopsled/pwntools)
+    * radare2 (http://www.radare.org/)
+
+ Both python2 and python3 are installed.
+
+--[ More information ]--
+
+  For more information regarding individual wargames, visit
+  http://www.overthewire.org/wargames/
+
+  For support, questions or comments, contact us on discord or IRC.
+
+  Enjoy your stay!
+
+bandit14@bandit:~$ cat /etc/bandit_pass/bandit14 
+fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+
+
+Pass:fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
