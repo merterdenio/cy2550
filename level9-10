@@ -1,0 +1,21 @@
+bandit9@bandit:~$ ls
+data.txt
+bandit9@bandit:~$ strings data.txt | grep "="
+c========== the
+I2=Z
+K=y3>
+!=j$u
+h;========== password
+========== isT
+E=XQ
+[Qi#Z=c
+i=|V
+!/=j>:]zx
+r>i"=
+XZ>~=
+n.E========== G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+~UtFS=
+eY4<={_
+bandit9@bandit:~$ 
+
+Pass: G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
