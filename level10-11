@@ -1,0 +1,9 @@
+bandit10@bandit:~$ ls -a
+.  ..  .bash_logout  .bashrc  data.txt  .profile
+bandit10@bandit:~$ cat data.txt
+VGhlIHBhc3N3b3JkIGlzIDZ6UGV6aUxkUjJSS05kTllGTmI2blZDS3pwaGxYSEJNCg==
+bandit10@bandit:~$ cat data.txt | base64 --decode
+The password is 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+bandit10@bandit:~$ 
+
+Pass: 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
