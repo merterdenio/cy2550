@@ -1,0 +1,7 @@
+bandit1@bandit:~$ ls -a
+-  .  ..  .bash_logout  .bashrc  .profile
+bandit1@bandit:~$ cat ./-
+rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+bandit1@bandit:~$ 
+
+Pass:rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
