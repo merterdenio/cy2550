@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+import argparse
+import random
+import string
+
+def load_words(file_path="words.txt"):
+    with open(file_path) as f:
+        words = f.read().splitlines()
+    return words
+
+def generate_password(words, word_count, cap_count, num_count, sym_count):
+    password = "".join(random.sample(words, word_count))
+    for _ in range(cap_count):
+        index = random.randint(0, word_count - 1)
+        password = password[:index] + password[index].upper() + password[index + 1:]
+    for _ in range(num_count):
+        index = random.randint(0, len(password))
+        password = password[:index] + str(random.randint(0, 9)) + password[index:]
+    for _ in range(sym_count):
+        index = random.randint(0, len(password))
+        password = password[:index] + random.choice(string.punctuation) + password[index:]
+    return password
+
+def main():
+    parser = argparse.ArgumentParser(description="Generate a secure, memorable password using the XKCD method")
+    parser.add_argument("-w", "--words", type=int, default=4, help="include WORDS words in the password (default=4)")
+    parser.add_argument("-c", "--caps", type=int, default=0, help="capitalize the first letter of CAPS random words (default=0)")
+    parser.add_argument("-n", "--numbers", type=int, default=0, help="insert NUMBERS random numbers in the password (default=0)")
+    parser.add_argument("-s", "--symbols", type=int, default=0, help="insert SYMBOLS random symbols in the password (default=0)")
+
+    args = parser.parse_args()
+
+    words = load_words()
+    password = generate_password(words, args.words, args.caps, args.numbers, args.symbols)
+    print(password)
+
+if __name__ == "__main__":
+    main()
