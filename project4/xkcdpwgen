@@ -1,24 +1,38 @@
 #!/usr/bin/env python3
+
 import argparse
 import random
 import string
 
-def load_words(file_path="words.txt"):
-    with open(file_path) as f:
-        words = f.read().splitlines()
+def load_words(file_name):
+    with open(file_name, "r") as file:
+        words = [word.strip() for word in file.readlines()]
     return words
 
-def generate_password(words, word_count, cap_count, num_count, sym_count):
-    password = "".join(random.sample(words, word_count))
-    for _ in range(cap_count):
-        index = random.randint(0, word_count - 1)
-        password = password[:index] + password[index].upper() + password[index + 1:]
-    for _ in range(num_count):
+def capitalize_words(password_words, num_caps):
+    caps_indices = random.sample(range(len(password_words)), num_caps)
+    for index in caps_indices:
+        password_words[index] = password_words[index].capitalize()
+
+def insert_numbers(password, num_numbers):
+    for _ in range(num_numbers):
         index = random.randint(0, len(password))
         password = password[:index] + str(random.randint(0, 9)) + password[index:]
-    for _ in range(sym_count):
+    return password
+
+def insert_symbols(password, num_symbols):
+    symbols = string.punctuation
+    for _ in range(num_symbols):
         index = random.randint(0, len(password))
-        password = password[:index] + random.choice(string.punctuation) + password[index:]
+        password = password[:index] + random.choice(symbols) + password[index:]
+    return password
+
+def generate_password(words, num_words, num_caps, num_numbers, num_symbols):
+    password_words = random.sample(words, num_words)
+    capitalize_words(password_words, num_caps)
+    password = "".join(password_words)
+    password = insert_numbers(password, num_numbers)
+    password = insert_symbols(password, num_symbols)
     return password
 
 def main():
@@ -30,7 +44,15 @@ def main():
 
     args = parser.parse_args()
 
-    words = load_words()
+    if args.caps > args.words:
+        print("Error: The number of capitalized words cannot be greater than the total number of words in the password.")
+        return
+
+    if args.words < 1:
+        print("Error: The total number of words in the password must be at least 1.")
+        return
+
+    words = load_words("words.txt")
     password = generate_password(words, args.words, args.caps, args.numbers, args.symbols)
     print(password)
 
