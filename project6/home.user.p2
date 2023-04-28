@@ -1,0 +1,16 @@
+#include <tunables/global>
+
+/home/mertm/p2 flags=(audit) {
+  #include <abstractions/base>
+
+  /home/mertm/p2 mr,
+  /tmp/** rw,
+  /home/mertm/.project2/** rw,
+  /var/log/syslog r,
+  /etc/fstab r,
+  /proc/version r,
+  /proc/buddyinfo r,
+  /etc/crontab r,
+}
+
+
