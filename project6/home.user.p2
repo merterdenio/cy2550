@@ -3,6 +3,7 @@
 /home/mertm/p2 flags=(audit) {
   #include <abstractions/base>
 
+  /home/mertm/template rm,
   /home/mertm/p2 mr,
   /tmp/** rw,
   /home/mertm/.project2/** rw,
@@ -11,6 +12,11 @@
   /proc/version r,
   /proc/buddyinfo r,
   /etc/crontab r,
+  /run/systemd/resolve/stub-resolv.conf r,
+  /etc/hosts r,
+  /etc/passwd r,
+  network tcp,
 }
+
 
 
